@@ -16,7 +16,7 @@ std::abort();\
 	ProjectLogger::GetLogger()->Log(reporter, successMessage, boost::log::trivial::severity_level::debug);\
 }
 #else
-#define ASSERT(condition, message)
+#define LOGGER_ASSERT(condition, reporter, errMessage, successMessage
 //
 #endif
 
@@ -29,7 +29,7 @@ std::abort();\
 	ProjectLogger::GetLogger()->Log(successMessage, boost::log::trivial::severity_level::debug);\
 }
 #else
-#define ASSERT(condition, message)
+#define LOGGER_ASSERT_MAIN(condition, errMessage, successMessage)
 //
 #endif
 
