@@ -10,7 +10,11 @@ ProjectLogger* ProjectLogger::_instance;
 ProjectLogger::ProjectLogger(): fileDescriptor(log::add_file_log("runtimeDebug.log")) {
 	log::core::get()->set_filter
 	(
+#ifdef WRITE_DEBUG_MESSAGES
+		log::trivial::severity >= log::trivial::debug
+#else
 		log::trivial::severity >= log::trivial::info
+#endif
 	);
 }
 
@@ -34,7 +38,7 @@ void ProjectLogger::Log(const LogReporter *reporter, const char *message, log::t
 	std::ostringstream str_bldr;
 	char time[CTIME_S_L];
 	assert(!GetTime(time));
-	str_bldr << "TIME: " << time << ", REPORTER: " << reporter->Report() << message;
+	str_bldr << "TIME: " << time << ", REPORTER: " << reporter->Report() << " :: " << message;
 	BOOST_LOG_WITH_PARAMS(log::trivial::logger::get(), (boost::log::keywords::severity = level)) << str_bldr.str();
 }
 

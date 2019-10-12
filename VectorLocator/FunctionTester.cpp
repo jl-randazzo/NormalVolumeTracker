@@ -1,6 +1,4 @@
 #include "FunctionTester.h"
-#include "debugMode.h"
-#include <functional>
 #include <cmath>
 
 using namespace std;
@@ -17,13 +15,13 @@ FunctionTester* FunctionTester::GetInstance() {
 }
 
 function<double(double)>* FunctionTester::BernsteinPolynomials(const int n) {
-	ASSERT(n > 0, "Attempted to initialize a bernstein polynomial with n <= 0");
+	LOGGER_ASSERT(n > 0, this, "Attempted to initialize a bernstein polynomial with n <= 0", "Entering BernSteinPolynomials function");
 
 	function<double(double)> * bernsteinFuncs = new function<double(double)>[n + 1];
 
 	for (int i = 0; i <= n; i++) {
 		bernsteinFuncs[i] = [=](double t) -> double {
-			ASSERT(0 <= t && t <= 1, "t was not within range of [0, 1] in bernstein function");
+			LOGGER_ASSERT(0 <= t && t <= 1, this, "t was not within range of [0, 1] in bernstein function", "bernsteinFunction created");
 			return (NChooseK(n, i) * pow(t, i) * pow((1 - t), n - i));
 		};
 	}
@@ -41,7 +39,7 @@ double FunctionTester::NChooseK(const int n, const int k) {
 }
 
 int FunctionTester::PartialFactorial(const int target, const int iterations) {
-	ASSERT((target - iterations) >= 0, "An invalid number of combination of iterations was assigned to partialFactorial in FunctionTester");
+	LOGGER_ASSERT((target - iterations) >= 0, this, "An invalid number of combination of iterations was assigned to partialFactorial in FunctionTester", "Entering PartialFactorial");
 
 	if (target == 0) {
 		return 1;
@@ -53,4 +51,9 @@ int FunctionTester::PartialFactorial(const int target, const int iterations) {
 	}
 
 	return retval;
+}
+
+const char* FunctionTester::Report() const {
+	const char* report = "{FunctionTester}";
+	return report;
 }

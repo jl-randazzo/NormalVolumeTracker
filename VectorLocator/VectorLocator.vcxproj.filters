@@ -33,9 +33,6 @@
     <ClInclude Include="FunctionTester.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="debugMode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ProjectLogger.h">
       <Filter>Header Files</Filter>
     </ClInclude>

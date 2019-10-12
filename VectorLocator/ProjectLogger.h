@@ -4,11 +4,39 @@
 #include <boost/log/utility/setup/file.hpp>
 #include <boost/log/trivial.hpp>
 
+#define DEBUG_MODE
+#define WRITE_DEBUG_MESSAGES
+
+#ifdef DEBUG_MODE
+#define LOGGER_ASSERT(condition, reporter, errMessage, successMessage) \
+if(!(condition)){\
+	ProjectLogger::GetLogger()->Log(reporter, errMessage, boost::log::trivial::severity_level::fatal);\
+std::abort();\
+} else { \
+	ProjectLogger::GetLogger()->Log(reporter, successMessage, boost::log::trivial::severity_level::debug);\
+}
+#else
+#define ASSERT(condition, message)
+//
+#endif
+
+#ifdef DEBUG_MODE
+#define LOGGER_ASSERT_MAIN(condition, errMessage, successMessage) \
+if(!(condition)){\
+	ProjectLogger::GetLogger()->Log(errMessage, boost::log::trivial::severity_level::fatal);\
+std::abort();\
+} else { \
+	ProjectLogger::GetLogger()->Log(successMessage, boost::log::trivial::severity_level::debug);\
+}
+#else
+#define ASSERT(condition, message)
+//
+#endif
 
 class LogReporter {
 	friend class ProjectLogger;
 private:
-	virtual char* Report() const = 0;
+	virtual const char* Report() const = 0;
 };
 
 class ProjectLogger {
@@ -22,3 +50,4 @@ private:
 	static ProjectLogger* _instance;
 	const boost::shared_ptr<boost::log::sinks::synchronous_sink<boost::log::sinks::text_file_backend>> fileDescriptor;
 };
+
