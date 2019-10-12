@@ -1,57 +1,141 @@
-TIME: Sat Oct 12 11:35:51 2019, REPORTER: {Main Method} :: test message
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering BernSteinPolynomials function
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:52 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering BernSteinPolynomials function
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}bernsteinFunction created
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
-TIME: Sat Oct 12 11:35:53 2019, REPORTER: {FunctionTester}Entering PartialFactorial
+TIME: Sat Oct 12 11:38:37 2019, REPORTER: {Main Method} :: test message
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering BernSteinPolynomials function
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering BernSteinPolynomials function
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering BernSteinPolynomials function
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering BernSteinPolynomials function
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:38 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering BernSteinPolynomials function
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: bernsteinFunction created
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
+TIME: Sat Oct 12 11:38:39 2019, REPORTER: {FunctionTester} :: Entering PartialFactorial
