@@ -7,9 +7,9 @@
 #include <functional>
 #include <string>
 #include <iostream>
-#include <boost/log/core.hpp>
-#include <boost/log/trivial.hpp>
-#include <boost/log/utility/setup/file.hpp>
+#include "ProjectLogger.h"
+
+using namespace boost::log::trivial;
 
 #define MAX_LOADSTRING 100
 
@@ -17,6 +17,7 @@
 HINSTANCE hInst;                                // current instance
 WCHAR szTitle[MAX_LOADSTRING];                  // The title bar text
 WCHAR szWindowClass[MAX_LOADSTRING];            // the main window class name
+const ProjectLogger* logger;
 
 // Forward declarations of functions included in this code module:
 ATOM                MyRegisterClass(HINSTANCE hInstance);
@@ -33,15 +34,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
+	::logger = ProjectLogger::GetLogger();
+	::logger->Log("test message", info);
+
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_VECTORLOCATOR, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
-
-	boost::log::add_file_log("runtimeDebug.log");   
-	boost::log::core::get()->set_filter
-	(
-		boost::log::trivial::severity >= boost::log::trivial::info
-	);
 
     if (!InitInstance (hInstance, nCmdShow))
     {
@@ -183,11 +181,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 }
 
 void TestFunction() {
-	auto ft = FunctionTester::getInstance();
-	std::function<double(double)>* bernsteins = ft->bernsteinPolynomials(2);
+	auto ft = FunctionTester::GetInstance();
+	std::function<double(double)>* bernsteins = ft->BernsteinPolynomials(2);
 	for (int i = 0; i <= 2; i++) {
-		BOOST_LOG_TRIVIAL(info) << std::to_string(bernsteins[i](0));
-		BOOST_LOG_TRIVIAL(info) << "test";
+		double a = bernsteins[i](0);
 		double b = bernsteins[i](.5);
 		double c = bernsteins[i](1);
 		double d = 0;

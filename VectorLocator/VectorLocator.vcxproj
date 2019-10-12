@@ -165,10 +165,12 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="VectorLocator.h" />
+    <ClInclude Include="ProjectLogger.h" />
     <ClInclude Include="VulkanImpl.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionTester.cpp" />
+    <ClCompile Include="ProjectLogger.cpp" />
     <ClCompile Include="VectorLocator.cpp" />
     <ClCompile Include="VulkanImpl.cpp" />
   </ItemGroup>
