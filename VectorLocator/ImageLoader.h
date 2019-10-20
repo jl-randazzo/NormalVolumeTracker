@@ -1,5 +1,6 @@
 #pragma once
 #include "lodepng.h"
+#include "ispc_texcomp/ispc_texcomp.h"
 
 class ImageLoader {
 public:

@@ -1,2 +1,5 @@
-﻿  ProjectLogger.cpp
-  VectorLocator.vcxproj -> C:\Users\jl_ra\source\repos\VectorLocator\x64\Debug\VectorLocator.exe
+﻿  Image.cpp
+D:\Documents - main\programming_projects\VectorLocator\VectorLocator\Image.h(26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents - main\programming_projects\VectorLocator\VectorLocator\Image.h(27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents - main\programming_projects\VectorLocator\VectorLocator\Image.h(28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  VectorLocator.vcxproj -> D:\Documents - main\programming_projects\VectorLocator\x64\Debug\VectorLocator.exe
