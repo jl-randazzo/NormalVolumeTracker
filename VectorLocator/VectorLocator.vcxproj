@@ -170,6 +170,7 @@
   <ItemGroup>
     <ClCompile Include="FunctionTester.cpp" />
     <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
     <ClCompile Include="ProjectLogger.cpp" />
     <ClCompile Include="VectorLocator.cpp" />
     <ClCompile Include="VulkanImpl.cpp" />
